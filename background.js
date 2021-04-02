@@ -1,3 +1,3 @@
-chrome.tabs.onZoomChange.addListener(() => {
-	chrome.tabs.setZoomSettings({ scope: "per-tab" });
+chrome.tabs.onZoomChange.addListener((zoomChangeInfo) => {
+	chrome.tabs.setZoomSettings(zoomChangeInfo.tabId, { scope: "per-tab" });
 });
