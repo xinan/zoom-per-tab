@@ -1,6 +1,6 @@
 {
   "name": "Zoom Per Tab",
-  "version": "1.0",
+  "version": "1.01",
   "description": "Zoom one tab without affecting other tabs of the same domain!",
   "background": {
     "scripts": ["background.js"],
