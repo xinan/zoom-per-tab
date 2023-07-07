@@ -1,12 +1,11 @@
 {
   "name": "Zoom Per Tab",
-  "version": "1.01",
+  "version": "1.02",
   "description": "Zoom one tab without affecting other tabs of the same domain!",
   "background": {
-    "scripts": ["background.js"],
-    "persistent": false
+    "service_worker": "service_worker.js"
   },
-  "manifest_version": 2,
+  "manifest_version": 3,
   "icons": {
     "128": "icon128.png"
   }
